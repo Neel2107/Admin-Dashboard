@@ -1,5 +1,5 @@
 import './bigChartBox.scss'
-import { ResponsiveContainer,AreaChart,CartesianGrid,XAxis,YAxis,Tooltip,Area } from 'recharts';
+import { ResponsiveContainer,AreaChart,XAxis,YAxis,Tooltip,Area } from 'recharts';
 
 const data = [
     {
@@ -62,7 +62,6 @@ const BigChartBox = () => {
             bottom: 0,
           }}
         >
-          {/* <CartesianGrid strokeDasharray="3 3" /> */}
           <XAxis dataKey="name" />
           <YAxis />
           <Tooltip />

@@ -1,9 +1,9 @@
-import { GridColDef, GridValueGetterParams } from "@mui/x-data-grid";
+import { GridColDef } from "@mui/x-data-grid";
 import Datatable from "../../components/dataTable/Datatable"
 import "./users.scss"
 import { useState } from "react";
 import Add from "../../components/add/Add";
-import { QueryClient, QueryClientProvider, useQuery } from "@tanstack/react-query";
+import {  useQuery } from "@tanstack/react-query";
 
 
 const columns: GridColDef[] = [

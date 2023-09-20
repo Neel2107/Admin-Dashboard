@@ -13,7 +13,7 @@ import Login from "./pages/Login/Login";
 import"./styles/global.scss"
 import User from "./pages/user/User";
 import Product from "./pages/product/Product";
-import { QueryClient, QueryClientProvider, useQuery } from "@tanstack/react-query";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 
 
