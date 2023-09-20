@@ -61,7 +61,7 @@ const Users = () => {
  const { isLoading, data } = useQuery({
     queryKey: ["allusers"],
     queryFn: () =>
-      fetch("http://localhost:8800/api/users").then(
+      fetch("https://admin-dashboard-backend-bgej.onrender.com/api/users").then(
         (res) => res.json()
       ),
   });
