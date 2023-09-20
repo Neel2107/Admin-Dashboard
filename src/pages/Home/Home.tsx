@@ -4,7 +4,7 @@ import ChartBox from "../../components/chartBox/ChartBox"
 import PieChartBox from "../../components/pieChartBox/PieChartBox"
 import TopBox from "../../components/topBox/TopBox"
 import { barChartBoxRevenue, barChartBoxVisit, chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } from "../../data"
-import "./Home.scss"
+import "./home.scss"
 const Home = () => {
   return (
     <div className="home">
